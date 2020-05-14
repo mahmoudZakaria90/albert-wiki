@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.wiki-btn {
+  margin: 0 15px;
+}
+
+iframe {
+  width: 90%;
+  display: block;
+  height: 900px;
+  margin: 25px auto 0;
+  border: 1px solid #dedede;
+}
