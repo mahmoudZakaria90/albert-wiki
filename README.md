@@ -1,3 +1,5 @@
+# Albert-wiki
+
 This is a project for Albert Einstein page fetched from Wikipedia "MediaWiki web service API".
 
 The used method "Parse API".
@@ -14,7 +16,7 @@ it comes with 10 supported languages:
     - Low Saxon
     - Hindi
 
-Note: There is no support for Arabic in the API, although it's already loading on wikipedia site itself.
+**Note**: There is no support for Arabic in the API, although it's already loading on wikipedia site itself.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
