@@ -1,48 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-
-const languages = [
-  {
-    name: 'English',
-    value: 'en'
-  },
-  {
-    name: 'Français',
-    value: 'fr'
-  },
-  {
-    name: 'Deutsch',
-    value: 'de'
-  },
-  {
-    name: 'İtaliano',
-    value: 'it'
-  },
-  {
-    name: 'Español',
-    value: 'es'
-  },
-  {
-    name: 'Plattdüütsch',
-    value: 'nds'
-  },
-  {
-    name: 'Nederlands',
-    value: 'nl'
-  },
-  {
-    name: 'Türkçe',
-    value: 'tr'
-  },
-  {
-    name: 'Русский',
-    value: 'ru'
-  },
-  {
-    name: 'Hindi',
-    value: 'hif'
-  }
-]
+import languages from './languages.js';
 
 function App() {
   const [preferredLang, setPreferredLang] = useState(navigator.language.split('-')[0]);
@@ -63,11 +21,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Welcome to Wikipedia</h2>
+        <h2>Welcome to Wikipedia viewer</h2>
         <h4>Choose your preferred language</h4>
       </header>
       <div className="App-btns">
-        {languages.length && languages.map(({ name, value }, i) => <button key={i} className="wiki-btn" onClick={() => setPreferredLang(value)}>{name}</button>)}
+        {languages.length && languages.map(({ name, value }, i) => <button key={i} className={`wiki-btn ${preferredLang === value ? 'selected' : ''}`} onClick={() => setPreferredLang(value)}>{name}</button>)}
       </div>
       <div className="wiki-view" dangerouslySetInnerHTML={{ __html: wiki }}></div>
     </div>

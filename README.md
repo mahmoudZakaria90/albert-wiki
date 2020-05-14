@@ -5,18 +5,18 @@ This is a project for Albert Einstein page fetched from Wikipedia "MediaWiki web
 The used method "Parse API".
 
 it comes with 10 supported languages:
-    - English
-    - French
-    - German
-    - Italian
-    - Russian
-    - Spanish
-    - Japanese
-    - Turkish
-    - Low Saxon
-    - Hindi
-
-**Note**: There is no support for Arabic in the API, although it's already loading on wikipedia site itself.
+- English
+- French
+- German
+- Italian
+- Russian
+- Spanish
+- Japanese
+- Turkish
+- Low Saxon
+- Hindi
+  
+**Note**: Using Wikimeida REST API is not stable at the moment, but we can get back to use it until it's operational https://en.wiktionary.org/api/rest_v1/.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
