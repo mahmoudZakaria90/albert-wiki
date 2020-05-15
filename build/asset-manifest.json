@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/albert-wiki/build/static/css/main.2875f180.chunk.css",
-    "main.js": "/albert-wiki/build/static/js/main.279f0aef.chunk.js",
-    "main.js.map": "/albert-wiki/build/static/js/main.279f0aef.chunk.js.map",
+    "main.css": "/albert-wiki/build/static/css/main.c9d95678.chunk.css",
+    "main.js": "/albert-wiki/build/static/js/main.50f30f24.chunk.js",
+    "main.js.map": "/albert-wiki/build/static/js/main.50f30f24.chunk.js.map",
     "runtime-main.js": "/albert-wiki/build/static/js/runtime-main.c1795548.js",
     "runtime-main.js.map": "/albert-wiki/build/static/js/runtime-main.c1795548.js.map",
-    "static/js/2.2985415d.chunk.js": "/albert-wiki/build/static/js/2.2985415d.chunk.js",
-    "static/js/2.2985415d.chunk.js.map": "/albert-wiki/build/static/js/2.2985415d.chunk.js.map",
+    "static/js/2.92a80761.chunk.js": "/albert-wiki/build/static/js/2.92a80761.chunk.js",
+    "static/js/2.92a80761.chunk.js.map": "/albert-wiki/build/static/js/2.92a80761.chunk.js.map",
     "index.html": "/albert-wiki/build/index.html",
-    "precache-manifest.62bec364ac057c6c7861d7b83c514934.js": "/albert-wiki/build/precache-manifest.62bec364ac057c6c7861d7b83c514934.js",
+    "precache-manifest.dab4909e5404fc3d1a76806ebdf2dc8a.js": "/albert-wiki/build/precache-manifest.dab4909e5404fc3d1a76806ebdf2dc8a.js",
     "service-worker.js": "/albert-wiki/build/service-worker.js",
-    "static/css/main.2875f180.chunk.css.map": "/albert-wiki/build/static/css/main.2875f180.chunk.css.map",
-    "static/js/2.2985415d.chunk.js.LICENSE.txt": "/albert-wiki/build/static/js/2.2985415d.chunk.js.LICENSE.txt"
+    "static/css/main.c9d95678.chunk.css.map": "/albert-wiki/build/static/css/main.c9d95678.chunk.css.map",
+    "static/js/2.92a80761.chunk.js.LICENSE.txt": "/albert-wiki/build/static/js/2.92a80761.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c1795548.js",
-    "static/js/2.2985415d.chunk.js",
-    "static/css/main.2875f180.chunk.css",
-    "static/js/main.279f0aef.chunk.js"
+    "static/js/2.92a80761.chunk.js",
+    "static/css/main.c9d95678.chunk.css",
+    "static/js/main.50f30f24.chunk.js"
   ]
 }

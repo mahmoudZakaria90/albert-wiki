@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/albert-wiki/build/precache-manifest.62bec364ac057c6c7861d7b83c514934.js"
+  "/albert-wiki/build/precache-manifest.dab4909e5404fc3d1a76806ebdf2dc8a.js"
 );
 
 self.addEventListener('message', (event) => {
