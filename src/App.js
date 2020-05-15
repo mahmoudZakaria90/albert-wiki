@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Loader from './Components/Loader';
 import WikiBtns from './Components/Buttons.jsx';
-// import languages from './languages.js';
 
 function App() {
   const [preferredLang, setPreferredLang] = useState(navigator.language.split('-')[0]);
