@@ -1,5 +1,12 @@
 @import 'https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=mediawiki.legacy.commonPrint,shared|skins.vector.styles&only=styles&skin=vector&*';
 
+@keyframes rotate {
+  to {
+    transform: rotate(360deg) translate(-50%, -50%);
+  }
+}
+
+
 .App-header,
 .App-btns {
   text-align: center;
@@ -22,11 +29,32 @@
   color: white
 }
 
-.wiki-view {
+.wiki-btn:disabled {
+  cursor: default;
+}
+
+
+.wiki-wrapper {
+  position: relative;
   padding: 25px;
   width: 90%;
   display: block;
-  height: 900px;
+  min-height: 200px;
   margin: 0 auto;
   border: 1px solid #dedede;
+}
+
+
+.loading-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: rotate(0) translate(-50%, -50%);
+  transform-origin: top left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid grey;
+  border-top-color: black;
+  animation: rotate 1s infinite
 }
