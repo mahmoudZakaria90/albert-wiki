@@ -15,21 +15,20 @@ function Buttons({ preferredLang, handleClick }) {
     })
 
     return (
-        languages.length > 0 && languages.map(({ langname, lang }, i) =>
-            <button
-                id={langname}
-                key={i}
-                className={`wiki-btn ${preferredLang === lang ? 'selected' : ''}`}
-                disabled={preferredLang === lang}
-                onClick={handleClick.bind(null, lang)}>
-                {langname}
-            </button>
-        )
-
+        <div className="App-btns">
+            {languages.length > 0 && languages.map(({ langname, lang }, i) =>
+                <button
+                    id={langname}
+                    key={i}
+                    className={`wiki-btn ${preferredLang === lang ? 'selected' : ''}`}
+                    disabled={preferredLang === lang}
+                    onClick={handleClick.bind(null, lang)}>
+                    {langname}
+                </button>
+            )}
+        </div>
     );
 }
-
-
 
 
 export default Buttons;

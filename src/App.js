@@ -32,9 +32,7 @@ function App() {
         <h2>Welcome to Wikipedia viewer</h2>
         <h4>Choose your preferred language</h4>
       </header>
-      <div className="App-btns">
-        <WikiBtns handleClick={handleClick} preferredLang={preferredLang} />
-      </div>
+      <WikiBtns handleClick={handleClick} preferredLang={preferredLang} />
       <div className="wiki-wrapper">
         {isLoading ? <Loader /> : null}
         <div className="wiki-view" dangerouslySetInnerHTML={!isLoading ? { __html: wiki } : null}></div>
