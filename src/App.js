@@ -25,7 +25,7 @@ function App() {
         <h4>Choose your preferred language</h4>
       </header>
       <div className="App-btns">
-        {languages.length && languages.map(({ name, value }, i) => <button key={i} className={`wiki-btn ${preferredLang === value ? 'selected' : ''}`} onClick={() => setPreferredLang(value)}>{name}</button>)}
+        {languages.length && languages.map(({ name, value }, i) => <button id={name} key={i} className={`wiki-btn ${preferredLang === value ? 'selected' : ''}`} onClick={() => setPreferredLang(value)}>{name}</button>)}
       </div>
       <div className="wiki-view" dangerouslySetInnerHTML={{ __html: wiki }}></div>
     </div>

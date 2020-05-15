@@ -1,42 +1,42 @@
 export default [
     {
-        name: 'English',
+        name: 'english',
         value: 'en'
     },
     {
-        name: 'Français',
+        name: 'français',
         value: 'fr'
     },
     {
-        name: 'Deutsch',
+        name: 'deutsch',
         value: 'de'
     },
     {
-        name: 'İtaliano',
+        name: 'italiano',
         value: 'it'
     },
     {
-        name: 'Español',
+        name: 'español',
         value: 'es'
     },
     {
-        name: 'Plattdüütsch',
+        name: 'plattdüütsch',
         value: 'nds'
     },
     {
-        name: 'Nederlands',
+        name: 'nederlands',
         value: 'nl'
     },
     {
-        name: 'Türkçe',
+        name: 'türkçe',
         value: 'tr'
     },
     {
-        name: 'Русский',
+        name: 'pусский',
         value: 'ru'
     },
     {
-        name: 'Hindi',
+        name: 'hindi',
         value: 'hif'
     }
 ]
